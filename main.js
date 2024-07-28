@@ -17,3 +17,8 @@ function getValue(myVal) {
 }
 var v = getValue(100);
 console.log(v);
+var heros = ['thor', 'slah', 'saad', 'shahid'];
+var heroMessages = heros.map(function (hero) {
+    return "hero is ".concat(hero);
+});
+console.log(heroMessages);

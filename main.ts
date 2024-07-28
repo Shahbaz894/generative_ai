@@ -17,7 +17,7 @@ signUp(
  console.log(aa)
 
 
- function getValue(myVal:number){
+ function getValue(myVal:number):string{
     if (myVal>5){
         return "value greator than 5"
     }
@@ -25,6 +25,19 @@ signUp(
  }
 
 let v=getValue(100)
-console.log(v)
+console.log(v);
+
+const heros = ['thor', 'slah', 'saad', 'shahid'];
+const heroMessages = heros.map(hero => {
+    return `hero is ${hero}`;
+});
+console.log(heroMessages);
+
+
+function consoleError(errmsg:string){
+    console.log(errmsg);
+}
+
+
  export{}
 
