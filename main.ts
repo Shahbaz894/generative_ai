@@ -34,8 +34,11 @@ const heroMessages = heros.map(hero => {
 console.log(heroMessages);
 
 
-function consoleError(errmsg:string){
+function consoleError(errmsg:string):void{
     console.log(errmsg);
+}
+function handleError(errmsg:string):never{
+    throw new Error(errmsg)
 }
 
 
