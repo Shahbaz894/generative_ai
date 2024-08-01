@@ -12,7 +12,7 @@ type user={
 }
 
 type admin={
-    name:string
+    name:string 
     id:number
 }
 

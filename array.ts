@@ -13,3 +13,9 @@ const allUser:User[]=[]
 
 
 allUser.push({name:'shahid',isPaid:true})
+// 
+
+const Mlmodel: number[][]=[
+    [255,123,11],
+    []
+]
